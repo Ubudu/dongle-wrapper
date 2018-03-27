@@ -1,0 +1,31 @@
+{
+  "name": "nrf_dongle-wrapper",
+  "version": "0.2.9",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ubudu/dongle-wrapper"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "debug": "^3.0.0",
+    "mqtt": "^2.12.0",
+    "serialport": "^5.0.0",
+    "zpad": "^0.5.0"
+  },
+  "devDependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.5",
+    "capped-array": "0.0.1",
+    "chai": "^4.1.1",
+    "commander": "^2.11.0",
+    "compare-versions": "^3.0.1",
+    "mocha": "^3.5.0"
+  }
+}
