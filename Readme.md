@@ -19,7 +19,7 @@ if( process.argv.length < 3 ){
 }
 
 var options = {
-  serialPort: process.argv[process.argv[1]],
+  serialPort: process.argv[process.argv[2]],
   baudRate: 115200
 };
 var dongle = new UBDongle('uart', options);
